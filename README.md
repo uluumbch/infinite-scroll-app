@@ -3,6 +3,8 @@ This simple project is created for demonstration about fetching 1 milion data su
 the goal of this project is to create a REST API that can fetch data quickly even if it has a lot of data.
 This project use [Express js](https://expressjs.com/) for Backend and [React](https://reactjs.org/) for Frontend and the data stored in database using [MySQL](https://www.mysql.com/). I also use [Tailwind CSS](https://https://tailwindcss.com/) for styling.
 
+![Bachrul Uluum - Infinite Scroll Preview](./frontend/public/preview.png)
+
 ## Usage
 1. Clone or download this project
 ```
@@ -25,10 +27,11 @@ This project use [Express js](https://expressjs.com/) for Backend and [React](ht
    ```
 5. Import `users.sql` to the mysql database.
 6. Done! the backend is up and running in http://localhost:5000
+   
+    >To test the server request run GET request to http://localhost:5000/users
 
-```
-    To test the server request run GET request to http://localhost:5000/users
-```
+    >to change database name , you can change in config/Database.js
+
 REST API can get some query like below:
 
   * GET http://localhost:5000/users?limit=10 return data for 10 users
