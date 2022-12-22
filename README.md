@@ -25,7 +25,7 @@ This project use [Express js](https://expressjs.com/) for Backend and [React](ht
    ```
    node index.js
    ```
-5. Import `users.sql` to the mysql database.
+5. Import `infinite-scroll.sql` to the mysql database.
 6. Done! the backend is up and running in http://localhost:5000
    
     >To test the server request run GET request to http://localhost:5000/users
